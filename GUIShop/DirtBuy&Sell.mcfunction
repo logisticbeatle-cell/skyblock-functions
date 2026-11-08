@@ -1,2 +1,2 @@
 # hi
-/execute AH
+/say Ah 
