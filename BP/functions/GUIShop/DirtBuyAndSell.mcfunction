@@ -1,2 +1,2 @@
 # hi
-/say DirtAndSell has been called!
+say function has ran!
