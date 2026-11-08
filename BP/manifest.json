@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "skyblock",
+        "description": "the function folder for all functions on the kingdom networks skyblock server",
+        "uuid": "9c0b4f53-268d-4ac6-9fc1-0ee501c0131b",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            70
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "56fc86fb-5aac-4754-a2e3-3f3d51e8c6ca",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "fc68d082-9d9a-43c1-8577-a394fab91606",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "logisticbeatle"
+        ]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jeanmajid/MCPE-Tool/refs/heads/main/public/mcConfigSchema.json",
+    "name": "skyblock",
+    "description": "the function folder for all functions on the kingdom networks skyblock server",
+    "modules": [
+        "npm"
+    ],
+    "id": "9vtmcleoztumw8bq8wc"
+}
