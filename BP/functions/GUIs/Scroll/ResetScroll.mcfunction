@@ -1,3 +1,4 @@
+scoreboard players set @s[scores={GUIPage=4,GUISelector=2}] GUISelector 1
 scoreboard players set @s[scores={GUIPage=6,GUISelector=4}] GUISelector 1
 scoreboard players set @s[scores={GUIPage=1..2,GUISelector=5}] GUISelector 1
 execute unless entity @s[scores={GUIPage=!5,GUIPage=!7}] run scoreboard players set @s[scores={GUISelector=6}] GUISelector 1
