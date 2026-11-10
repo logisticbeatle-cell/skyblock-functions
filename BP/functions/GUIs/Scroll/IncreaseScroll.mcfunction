@@ -1,0 +1,1 @@
+scoreboard players add @s[scores={GUIPage=!8}] GUISelector 1

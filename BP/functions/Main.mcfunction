@@ -1,1 +1,1 @@
-execute as @a[tag=!GUIOff] run function GUIDisplay/GUIDisplays
+execute as @a[tag=!GUIOff] run function GUIs/GUIDisplay/GUIDisplays
