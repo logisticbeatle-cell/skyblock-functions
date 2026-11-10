@@ -1,1 +1,2 @@
 execute as @a[tag=!GUIOff] run function BP/functions/GUIDisplay/GUIDisplays
+function BP/functions/GUIDisplay/GUIDisplays
