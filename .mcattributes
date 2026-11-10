@@ -1,2 +1,3 @@
 
 diagnostic.disable.minecraft.objective.missing=true
+diagnostic.disable.behaviorpack.functions.missing=true
