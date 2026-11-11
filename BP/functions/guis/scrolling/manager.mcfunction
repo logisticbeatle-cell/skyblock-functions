@@ -2,6 +2,6 @@ function Quiries/CrouchDetection
 function Quiries/InAirDetection
 execute if entity @s[tag=IsSneaking,tag=!GUIOff,tag=!HasCrouched] run function GUIs/Scroll/IncreaseScroll
 function GUIs/Scroll/ResetScroll
-execute if entity @a[tag=IsSneaking,tag=IsAirborn,tag=!IncreasedAir,scores={GUIPage=3}] run function GUIs/Scroll/AirbornSelection
+execute if entity @a[tag=IsSneaking,tag=IsAirborn,tag=!IncreasedAir,scores={GUIPage=3}] run function GUIs/Selection/AirbornSelection
 function Quiries/HasCrouched
 function Quiries/HasBeenAirborn
