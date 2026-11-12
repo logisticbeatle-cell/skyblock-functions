@@ -9,7 +9,7 @@ execute as @a[tag=!GUIOff] run function guis/displays/manager
 # calls scrolling
 execute as @a run function guis/scrolling/manager
 
-execute as @a run function guis/selecting/manager/manager
+execute as @a run function guis/selecting/manager
 
 # gets if theyve been crouching for future ticks
 execute as @a run function queries/crouching/has_crouched
