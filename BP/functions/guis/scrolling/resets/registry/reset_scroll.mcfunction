@@ -6,5 +6,3 @@ scoreboard players set @s[scores={GUIPage=9,GUISelector=10}] GUISelector 1
 execute if entity @s[scores={GUIPage=3}] if score @s GUISelector > PlayerOnline Information run scoreboard players set @s GUISelector 1
 scoreboard players set @s[scores={GUIPage=8}] GUISelector 1
 scoreboard players set @s[scores={GUIPage=!8..9}] ShopSelector 1
-execute if entity @s[scores={GUIPage=8}] run function GUIs/Scroll/ResetShopScroll
-execute if entity @s[scores={GUIPage=!8..9}] run function GUIs/Scroll/ResetShopTags

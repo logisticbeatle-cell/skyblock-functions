@@ -1,3 +1,8 @@
-execute if entity @s[tag=IsSneaking,tag=!GUIOff,tag=!HasCrouched] run function GUIs/Scroll/IncreaseScroll
-function GUIs/Scroll/ResetScroll
-execute if entity @a[tag=IsSneaking,tag=IsAirborn,tag=!IncreasedAir,scores={GUIPage=3}] run function GUIs/Selection/AirbornSelection
+# resets regular variables for display
+function guis/scrolling/resets/registry/reset_scroll
+
+# resets any scores for the shop display
+execute if entity @s[scores={GUIPage=8}] run function guis/scrolling/resets/registry/reset_shop_sell
+
+# resets any tags for the shop display
+execute if entity @s[scores={GUIPage=!8..9}] run function guis/scrolling/resets/registry/reset_shop_tags
