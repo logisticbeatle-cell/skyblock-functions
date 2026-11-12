@@ -4,7 +4,7 @@ execute as @a run function queries/crouching/crouch_detection
 execute as @a run function queries/in_air/in_air
 
 # calls displays
-execute as @a[tag=!GUIOff] run function guis/displays/titleraws/gui_displays
+execute as @a[tag=!GUIOff] run function guis/displays/manager
 
 # calls scrolling
 execute as @a run function guis/scrolling/manager
