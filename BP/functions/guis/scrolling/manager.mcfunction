@@ -4,4 +4,4 @@ execute if entity @s[tag=IsSneaking,tag=!GUIOff,tag=!HasCrouched] run function g
 function guis/scrolling/resets/index
 
 # runs the airborn selection
-execute if entity @a[tag=IsSneaking,tag=IsAirborn,tag=!IncreasedAir,scores={GUIPage=3}] run function guis/selecting/airborn_selection
+execute if entity @a[tag=IsSneaking,tag=IsAirborn,tag=!IncreasedAir,scores={GUIPage=3}] run function guis/selecting/other_selections/airborn_selection
