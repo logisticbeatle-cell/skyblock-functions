@@ -1,6 +1,6 @@
 # gets if theyre currently crouching
-function queries/crouching/crouch_detection 
-
+function queries/crouching/crouch_detection
+say @a[tag=IsSneaking]
 # gets if theyre currently airborn
 function queries/in_air/in_air
 
