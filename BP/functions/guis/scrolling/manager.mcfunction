@@ -1,5 +1,6 @@
 # scrolls down on display
 execute if entity @s[tag=IsSneaking,tag=!GUIOff,tag=!HasCrouched] run function guis/scrolling/increments/increase_scroll
+say AH
 
 # calls scrolling checks
 function guis/scrolling/resets/index
