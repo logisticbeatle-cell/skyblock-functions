@@ -1,1 +1,1 @@
-execute if entity @s[scores={GUIPage=2,GUISelector=4}] run function guis/selecting/right_click/router/registry/page_two/selector_4
+execute if entity @s[scores={GUIPage=2,GUISelector=4}] run function guis/selecting/right_click/router/registry/page_2/selector_4
