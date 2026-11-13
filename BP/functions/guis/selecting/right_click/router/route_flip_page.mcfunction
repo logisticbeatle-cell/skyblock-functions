@@ -15,7 +15,7 @@ execute if entity @s[scores={GUIPage=5,GUISelector=3}] run function guis/selecti
 execute if entity @s[scores={GUIPage=6,GUISelector=2}] run function guis/selecting/right_click/router/registry/page_6/selector_2
 
 # page 7
-execute if entity @s[scores={GUIPage=7}] run function guis/selecting/right_click/router/registry/page_7/selection
+execute if entity @s[scores={GUIPage=7,GUISelector=!5}] run function guis/selecting/right_click/router/registry/page_7/selection
 
 # page 8
 execute if entity @s[scores={GUIPage=8}] run function guis/selecting/right_click/router/registry/page_8/selection
