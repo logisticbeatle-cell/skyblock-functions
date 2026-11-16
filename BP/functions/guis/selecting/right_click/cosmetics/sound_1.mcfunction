@@ -1,1 +1,1 @@
-playsound block.click_on.bamboo_wood_button @s
+playsound block.click @s
