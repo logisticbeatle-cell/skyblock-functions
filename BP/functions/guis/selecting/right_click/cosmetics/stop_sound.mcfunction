@@ -1,1 +1,1 @@
-stopsound @s mob.snowgolem.shoot
+stopsound @s random.bow
