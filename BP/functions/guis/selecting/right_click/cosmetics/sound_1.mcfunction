@@ -1,2 +1,1 @@
-playsound block.click @s
-say test
+execute positioned as @s run playsound block.click @s ~~~
