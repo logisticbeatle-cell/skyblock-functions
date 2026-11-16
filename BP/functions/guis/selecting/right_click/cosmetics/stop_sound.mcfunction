@@ -1,0 +1,1 @@
+stopsound @s mob.snowgolem.shoot
