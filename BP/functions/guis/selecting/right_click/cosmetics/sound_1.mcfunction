@@ -1,0 +1,1 @@
+playsound block.click_on.bamboo_wood_button @s
