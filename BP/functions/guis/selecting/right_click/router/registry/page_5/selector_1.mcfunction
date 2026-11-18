@@ -1,1 +1,1 @@
-/scoreboard players add @s IslandDefaultPerms 1
+scoreboard players add @s IslandDefaultPerms 1

@@ -5,4 +5,3 @@ tag @s[scores={GUISelector=3}] add OresAndCrystals
 tag @s[scores={GUISelector=4}] add Nature
 scoreboard players set @s GUIPage 8
 scoreboard players set @s GUISelector 1
-tag @s add FlippingPage 
